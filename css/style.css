@@ -47,6 +47,53 @@ html, body {
   height: 40%;
 }
 
+.user-info {
+  width: 100%;
+  height: 30%;
+}
+
+/* app-links */
+.app-links {
+  width: 100%;
+}
+
+/* right side */
+.right {
+  width: 60%;
+  background-color: white;
+  overflow: auto;
+}
+
+/* head-box */
+.head-box {
+  width: 100%;
+  height: 40%;
+}
+
+.head-box-title {
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+.head-box-time {
+  font-size: 10px;
+  font-family: sans-serif;
+  color: rgb(92, 86, 86);
+}
+
+.head-box-text {
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 1;
+}
+
+.head-box-url {
+  font-size: 12px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #0890eb;
+}
+
 /* Stories */
 .stories {
   padding: 20px;
