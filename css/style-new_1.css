@@ -1,0 +1,31 @@
+.detailed {
+  position: absolute;
+  left: 200px;
+  right: 200px;
+}
+
+.content>h1 {
+  line-height: 1.5rem;
+  margin-top: inherit;
+}
+
+.content>p {
+  line-height: 2em;
+}
+
+.content>h1>span {
+  color: pink;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.video>video {
+  width: 100%;
+  object-fit: fill;
+  
+}
+.video>p {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: inherit;
+}
