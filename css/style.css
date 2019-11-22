@@ -47,6 +47,37 @@ html, body {
   height: 40%;
 }
 
+/* Stories */
+.stories {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.story-row {
+  margin-right: 40px;
+  margin-top: 20px;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  height: 210px;
+}
+
+.story-pic {
+  width: 200px;
+  height: 200px;
+}
+
+.story-info {
+  padding: 20px;
+  height: 200px;
+  box-sizing: border-box;
+}
+
+.story-link {
+  margin-top: 20px;
+}
 
 
 
