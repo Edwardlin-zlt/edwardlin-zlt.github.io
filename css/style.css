@@ -57,10 +57,37 @@ h2 {
   font-size: 18px;
 }
 
-/* app-links */
-.app-links {
-  width: 100%;
+/*App links*/
+
+.link-app-link {
+  width: 77%;
+  height: 60%;
+  margin-top: 10%;
 }
+
+.link-smaller-img {
+  width: 90%;
+  padding: 15px 0x 10px 0;
+}
+.link-box-left {
+  text-align: center;
+  width: 20%;
+  display: inline-table;
+  margin: 1% 5% 1% 36%;
+}
+
+.link-icon-text {
+color: white;
+}
+
+.link-box-right {
+text-align: center;
+width: 20%;
+display: inline-table;
+margin: 1% 0% 1% 5%;
+}
+
+/*end of left side*/
 
 /* right side */
 .right {
