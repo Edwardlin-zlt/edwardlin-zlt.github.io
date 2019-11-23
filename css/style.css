@@ -39,7 +39,7 @@ h2 {
   text-align: center;
 }
 
-.user-photo > img {
+.user-photo > a > img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -102,7 +102,6 @@ h2 {
 .head-box > img {
   height: 80%;
   width: 90%;
-
 }
 
 /* Stories */
