@@ -93,4 +93,9 @@ html, body {
 .context {
   height: 80%;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
+

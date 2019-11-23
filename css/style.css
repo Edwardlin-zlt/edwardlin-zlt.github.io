@@ -123,8 +123,13 @@ h2 {
 }
 
 .story-pic {
-  width: 200px;
-  height: 200px;
+  width: 20%;
+  height: 95%;
+}
+
+.story-pic > img {
+  width: 100%;
+  height: 100%;
 }
 
 .story-info {
