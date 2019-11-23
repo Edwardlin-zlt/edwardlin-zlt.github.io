@@ -102,13 +102,11 @@ h2 {
   width: 100%;
   height: 40%;
   padding: 20px 40px 20px 20px;
-  display: flex;
-  flex-direction: column;
 }
 
 .head-box-title {
   width: 100%;
-  height:50%;
+  height: 50%;
   font-size: 15px;
   font-family: Helvetica, sans-serif;
 }
@@ -138,11 +136,6 @@ h2 {
   color: #0890eb;
 }
 
-<<<<<<< HEAD
-.head-box-img {
-  height: 80%;
-  width: 90%;
-=======
 .head-box-image {
   height: 40%;
   width: 100%;
@@ -151,16 +144,11 @@ h2 {
 .head-box-img {
   width: 100%;
   height: 100%;
->>>>>>> f489316... [yanxiaotian] {fix}-{StoryNo.4}: Adjust head box layout
-}
-
-.head-box-img > img {
-  height: 100%;
-  width: 100%;
 }
 
 /* Stories */
 .stories {
+  font-family: sans-serif;
   padding: 20px 40px 20px 20px;
   display: flex;
   flex-direction: column;
@@ -186,10 +174,42 @@ h2 {
   height: 100%;
 }
 
+.story-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.story-subtitle {
+  color: rgb(92, 86, 86);
+  margin-bottom: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
 .story-info {
   padding: 20px;
   height: 200px;
   box-sizing: border-box;
+}
+
+.story-content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 .story-link {
