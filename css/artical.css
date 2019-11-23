@@ -91,11 +91,36 @@ html, body {
 
 /* context */
 .context {
-  height: 80%;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  position: absolute;
+  left: 200px;
+  right: 200px;
+  margin-top: 5%;
+  
+}
+
+.content>h1 {
+  line-height: 1.5rem;
+  margin-top: inherit;
+}
+
+.content>p {
+  line-height: 2em;
+}
+
+.content>h1>span {
+  color: pink;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.content-video>video {
+  width: 100%;
+  object-fit: fill;
+  
+}
+.content-video>p {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: inherit;
 }
 
