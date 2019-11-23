@@ -93,14 +93,15 @@ h2 {
 /* right side */
 .right {
   background-color: white;
-  overflow: auto;
 }
 
 /* head-box */
 .head-box {
   width: 100%;
   height: 40%;
-  padding: 20px;
+  padding: 20px 40px 20px 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .head-box-title {
@@ -127,9 +128,14 @@ h2 {
   color: #0890eb;
 }
 
-.head-box > img {
+.head-box-img {
   height: 80%;
   width: 90%;
+}
+
+.head-box-img > img {
+  height: 100%;
+  width: 100%;
 }
 
 /* Stories */

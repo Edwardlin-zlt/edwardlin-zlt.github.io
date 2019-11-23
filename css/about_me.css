@@ -15,14 +15,39 @@ html, body {
 
 .info-box {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   width: 400px;
   height: 400px;
   background-color: white;
   color: rgb(94, 104, 111);
-  box-shadow: 0 0 5 rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.6);
+  font-family: "Gill Sans", sans-serif;
+}
+
+.close-button {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  padding: 5% 5% 5% 0;
+  box-sizing: border-box;
+}
+
+.close-icon:hover {
+  opacity: 1;
+}
+
+.close-icon:before {
+  content: '\2716';
+}
+
+a {
+  text-decoration: none;
+}
+
+.close-icon:after {
+  transform: rotate(45deg);
 }
 
 .user-info {
@@ -39,7 +64,7 @@ html, body {
 }
 
 h2 {
-  padding: 5px;
+  padding: 15px 0 5px 0;
 }
 
 p {
