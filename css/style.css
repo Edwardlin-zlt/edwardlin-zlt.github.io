@@ -106,7 +106,11 @@ h2 {
 
 .head-box-title {
   width: 100%;
+<<<<<<< HEAD
   height: 50%;
+=======
+  height:50%;
+>>>>>>> 8898ab34031a724af510c1ff3f9b26bd0aacf488
   font-size: 15px;
   font-family: Helvetica, sans-serif;
 }
