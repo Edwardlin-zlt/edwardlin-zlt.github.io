@@ -19,12 +19,6 @@ html, body {
   position: absolute;
   left: 0;
   top: 0;
-  background-position: center;
-  background-size: cover;
-  -webkit-filter: blur(15px);
-  -moz-filter: blur(15px);
-  -o-filter: blur(15px);
-  -ms-filter: blur(15px);
   filter: blur(15px);
 }
 
@@ -73,7 +67,8 @@ html, body {
   color: white;
 }
 
-h2 {
+
+.left > h2 {
   text-align: center;
   padding: 5px;
 }
@@ -161,6 +156,7 @@ h2 {
 
 /* right side */
 .right {
+  width: 60%;
   background-color: white;
   overflow: auto;
 }
@@ -169,29 +165,30 @@ h2 {
 .head-box {
   display: flex;
   flex-direction: column;
+  justify-content: left;
   width: 100%;
   height: 40%;
   padding: 20px 40px 20px 20px;
 }
 
 .head-box-title {
-  width: 100%;
-  height: 50%;
   font-size: 15px;
   font-family: Helvetica, sans-serif;
 }
 
 .head-box-time {
-  font-size: 4px;
+  font-size: small;
   font-family: sans-serif;
   color: rgb(92, 86, 86);
 }
 
 .head-box-text {
-  font-size: 15px;
+  font-size: medium;
   font-family: sans-serif;
   line-height: 1;
   margin-top: 10px;
+  margin-right: 10%;
+  box-sizing: border-box;
 }
 
 .head-box-url {
@@ -200,15 +197,15 @@ h2 {
 }
 
 .head-box-urltext {
-  font-size: 8px;
+  font-size: small;
   font-family: sans-serif;
   text-decoration: none;
   color: #0890eb;
 }
 
 .head-box-image {
-  height: 40%;
-  width: 100%;
+  height: 60%;
+  width: 90%;
 }
 
 .head-box-img {
@@ -235,12 +232,11 @@ h2 {
 }
 
 .story-pic {
-  width: 20%;
   height: 95%;
 }
 
 .story-pic > img {
-  width: 100%;
+  width: 200px;
   height: 100%;
 }
 
@@ -256,6 +252,7 @@ h2 {
 
 .story-subtitle {
   color: rgb(92, 86, 86);
+  font-size: small;
   margin-bottom: 4px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -267,7 +264,7 @@ h2 {
 }
 
 .story-info {
-  padding: 20px;
+  padding: 0 20px 20px 20px;
   height: 200px;
   box-sizing: border-box;
 }
@@ -283,98 +280,7 @@ h2 {
 }
 
 .story-link {
-  margin-top: 20px;
+  margin-top: 60px;
+  text-decoration: none;
 }
 
-.info-box {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  width: 400px;
-  height: 400px;
-  background-color: white;
-  color: rgb(94, 104, 111);
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.6);
-  font-family: "Gill Sans", sans-serif;
-  animation-duration: 1.5s;
-}
-
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-.fadeInDown {
-  -webkit-animation-name: fadeInDown;
-  animation-name: fadeInDown;
-}
-
-.close-button {
-  display: inline-flex;
-  flex-direction: row-reverse;
-  width: 100%;
-  padding: 5% 5% 5% 0;
-  box-sizing: border-box;
-}
-
-.close-icon:hover {
-  opacity: 1;
-}
-
-.close-icon:before {
-  content: '\2716';
-}
-
-.close-icon:after {
-  transform: rotate(45deg);
-}
-
-.user-info {
-  height: 60%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.round-icon {
-  width: 25%;
-  border-radius: 100%;
-}
-
-h2 {
-  padding: 15px 0 5px 0;
-}
-
-p {
-  padding: 5px;
-  text-align: center;
-}
-
-.icons {
-  width: 60%;
-  display: flex;
-  justify-content: space-around;
-}
-
-.icon-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.icon {
-  width: 40px;
-  height: 40px;
-}
