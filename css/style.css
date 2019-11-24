@@ -168,12 +168,12 @@ html, body {
 @media screen and (max-width: 1000px) {
   .user-info {
     width: 100%;
-    height: 5%;
+    height:25%;
     text-align: center;
   }
   
   .user-info-photo {
-    margin-top: 25%;
+    margin-top: 5%;
   }
 
   .user-info-title {
@@ -223,7 +223,7 @@ html, body {
     text-align: center;
     width: 20%;
     display: inline-table;
-    margin: 10% 15% 10% 15%;
+    margin: 0% 15% 5% 15%;
   }
   
   .link-icon-text {
@@ -235,7 +235,7 @@ html, body {
     text-align: center;
     width: 20%;
     display: inline-table;
-    margin: 5% 15% 0% 15%;
+    margin: 0% 15% 5% 15%;
   }
 }
 
