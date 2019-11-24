@@ -69,6 +69,7 @@ html, body {
 /* left side */
 .left {
   width: 40%;
+  height: 100%;
   color: white;
 }
 
@@ -79,18 +80,22 @@ h2 {
 
 /* user-info */
 .user-info {
+  border-width: 0;
+  border-color: black;
+  border-style: solid;
   width: 100%;
   height: 30%;
 }
 
 .user-photo {
-  margin-top: 25%;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
 .user-photo > a > img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
 }
 
@@ -109,21 +114,30 @@ h2 {
 /*App links*/
 
 .link-app-link {
-  width: 77%;
-  height: 60%;
-  margin-top: 10%;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  border-width: 0;
+  border-color: black;
+  border-style: solid;
 }
 
 .link-smaller-img {
-  width: 90%;
+  width: 50%;
   padding: 15px 0 10px 0;
+}
+
+.link-title {
+  color: white; 
+  text-align: center;
+  margin: 5% 0 2% 0%;
 }
 
 .link-box-left {
   text-align: center;
   width: 20%;
   display: inline-table;
-  margin: 1% 5% 1% 36%;
+  margin: 1% 5% 1% 26%;
 }
 
 .link-icon-text {
@@ -134,7 +148,13 @@ h2 {
   text-align: center;
   width: 20%;
   display: inline-table;
-  margin: 1% 0 1% 5%;
+  margin: 1% 0% 1% 0%;
+}
+
+.left-row {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
 }
 
 /*end of left side*/
