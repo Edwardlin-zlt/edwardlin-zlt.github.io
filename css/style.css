@@ -31,64 +31,142 @@ h2 {
 /* user-info */
 .user-info {
   width: 100%;
-  height: 30%;
-}
-
-.user-photo {
-  margin-top: 25%;
+  height: 25%;
   text-align: center;
 }
 
-.user-photo > a > img {
-  width: 100px;
-  height: 100px;
+.user-info-photo {
+  margin-top: 25%;
+}
+
+.user-info-photo > a > img {
+  width: 35%;
+  height: 35%;
   border-radius: 50%;
 }
 
-.user-content {
-  text-align: center;
-  line-height: 2em;
-  font-size: 14px;
-
+.user-info-name {
+  font-size: 20px;
 }
 
-.user-content > span {
+.user-info-content {
+  font-family: Lobster, sans-serif;
+  line-height: 1em;
+  font-size: 12px;
+}
+
+.user-info-content > span {
   font-weight: bold;
   font-size: 18px;
 }
 
 /*App links*/
-
 .link-app-link {
-  width: 77%;
-  height: 60%;
   margin-top: 10%;
 }
 
+.link-app-link > h2 {
+  color: white;
+  margin: 0 30% 2% 30%;
+  font-size: medium;
+}
+
 .link-smaller-img {
-  width: 90%;
-  padding: 15px 0 10px 0;
+  width: 60%;
+  padding: 0 0 20% 0;
 }
 
 .link-box-left {
   text-align: center;
   width: 20%;
   display: inline-table;
-  margin: 1% 5% 1% 36%;
+  margin: 5% 0% 0% 25%;
 }
 
 .link-icon-text {
   color: white;
+  font-size: 12px;
 }
 
 .link-box-right {
   text-align: center;
   width: 20%;
   display: inline-table;
-  margin: 1% 0 1% 5%;
+  margin: 5% 0% 0% 10%;
 }
 
 /*end of left side*/
+
+/* media */
+@media screen and (max-width: 1000px) {
+  .user-info {
+    width: 100%;
+    height: 5%;
+    text-align: center;
+  }
+  
+  .user-info-photo {
+    margin-top: 25%;
+  }
+  
+  .user-info-photo > a > img {
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+  }
+  
+  .user-info-name {
+    font-size: 0;
+  }
+  
+  .user-info-content {
+    font-family: Lobster, sans-serif;
+    line-height: 1em;
+    font-size: 0;
+  }
+  
+  .user-info-content > span {
+    font-weight: bold;
+    font-size: 0;
+  }
+
+  .link-app-link {
+    margin-top: 10%;
+    text-align: center;
+  }
+  
+  .link-app-link > h2 {
+    color: white;
+    margin: 0 30% 2% 30%;
+    font-size: 0;
+  }
+  
+  .link-smaller-img {
+    width: 80%;
+    padding: 0 0 20% 0;
+  }
+  
+  .link-box-left {
+    text-align: center;
+    width: 20%;
+    display: inline-table;
+    margin: 10% 15% 10% 15%;
+  }
+  
+  .link-icon-text {
+    color: white;
+    font-size: 0;
+  }
+  
+  .link-box-right {
+    text-align: center;
+    width: 20%;
+    display: inline-table;
+    margin: 5% 15% 0% 15%;
+  }
+}
+
+/* end of media*/
 
 /* right side */
 .right {
@@ -106,11 +184,7 @@ h2 {
 
 .head-box-title {
   width: 100%;
-<<<<<<< HEAD
   height: 50%;
-=======
-  height:50%;
->>>>>>> 8898ab34031a724af510c1ff3f9b26bd0aacf488
   font-size: 15px;
   font-family: Helvetica, sans-serif;
 }
