@@ -204,7 +204,7 @@ html, body {
   }
 
   .link-app-link {
-    margin-top: 10%;
+    margin-top: 20%;
     text-align: center;
   }
 
@@ -215,7 +215,7 @@ html, body {
   }
 
   .link-smaller-img {
-    width: 80%;
+    width: 100%;
     padding: 0 0 20% 0;
   }
 
