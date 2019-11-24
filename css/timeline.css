@@ -38,7 +38,7 @@ body {
     -webkit-transform: translateX(-50%);
     width: 15px;
     height: 15px;
-    border: 5px solid;
+    border: 4px solid;
     border-color: cyan;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -102,3 +102,18 @@ body {
     left: -240px
 }
 
+.timeline ul li:last-child:before {
+    content: '';
+    background: cyan;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    border: 5px solid;
+    border-color: cyan;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
