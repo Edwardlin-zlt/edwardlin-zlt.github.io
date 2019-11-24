@@ -132,7 +132,7 @@ html, body {
 }
 
 .link-title {
-  color: white; 
+  color: white;
   text-align: center;
   margin: 5% 0 2% 0%;
 }
@@ -168,36 +168,36 @@ html, body {
 @media screen and (max-width: 1000px) {
   .user-info {
     width: 100%;
-    height:25%;
+    height: 25%;
     text-align: center;
   }
-  
+
   .user-info-photo {
     margin-top: 5%;
   }
 
   .user-info-title {
-  text-align: center;
-  padding: 5px;
-  font-size: 0;
-}
-  
+    text-align: center;
+    padding: 5px;
+    font-size: 0;
+  }
+
   .user-info-photo > a > img {
     width: 35%;
     height: 35%;
     border-radius: 50%;
   }
-  
+
   .user-info-name {
     font-size: 0;
   }
-  
+
   .user-info-content {
     font-family: Lobster, sans-serif;
     line-height: 1em;
     font-size: 0;
   }
-  
+
   .user-info-content > span {
     font-weight: bold;
     font-size: 0;
@@ -207,30 +207,30 @@ html, body {
     margin-top: 10%;
     text-align: center;
   }
-  
+
   .link-app-link > h2 {
     color: white;
     margin: 0 30% 2% 30%;
     font-size: 0;
   }
-  
+
   .link-smaller-img {
     width: 80%;
     padding: 0 0 20% 0;
   }
-  
+
   .link-box-left {
     text-align: center;
     width: 20%;
     display: inline-table;
     margin: 0% 15% 5% 15%;
   }
-  
+
   .link-icon-text {
     color: white;
     font-size: 0;
   }
-  
+
   .link-box-right {
     text-align: center;
     width: 20%;
